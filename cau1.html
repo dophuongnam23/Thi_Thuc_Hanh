@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+      let arr=[9,6,7,5];
+      function findAvg(arr) {
+          let sum = 0;
+          for (let i = 0; i < arr.length; i++)
+              sum += arr[i];
+          let avg = sum / arr.length;
+          return avg;
+      }
+      document.write("Điểm trung bình = " + findAvg(arr));
+
+  </script>
+</body>
+</html>
